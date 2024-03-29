@@ -33,16 +33,16 @@ header:
   navbar:
     enable: true
     blox: "navbar"
-    align: "center"
-    fixed_to_top: true
+    align: "right"
+    fixed_to_top: false
     logo:
-      text: ""
+      text: "Backend"
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
-    button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/details/docs/"
+#      filename: "logo.svg"
+#    button:
+#      enable: true
+#      text: "Get Started"
+#      url: "https://hugoblox.com/templates/details/docs/"
     show_search: true
     show_theme_chooser: true
 

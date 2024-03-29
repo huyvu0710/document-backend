@@ -1,8 +1,17 @@
 ---
 title: Getting Started
-date: 2024-02-17
 weight: 1
 ---
+
+## Before the start
+
+Before start using the API, it's worthwhile knowing how we design it. This knowledge will improve your understanding of the SDK, ultimately enhancing your development efficiency.
+
+To ensure clarity and consistency in our API design, we adhere to the following naming conventions:
+
+1. **Camel Case**: We use camel case for all naming elements, capitalizing the first letter of each word (e.g., getProducts, updateCustomer).
+
+2. **Descriptive Naming**: Abbreviations are generally avoided to enhance readability. We use full names for all elements except for well-established technical terms like API, URL, etc.
 
 ## Quick Start from Template
 
@@ -31,6 +40,6 @@ weight: 1
 Let's customize your new site:
 
 {{< cards >}}
-  {{< card url="../guide/project-structure" title="Project Structure" icon="document-duplicate" >}}
-  {{< card url="../guide/configuration" title="Configuration" icon="adjustments-vertical" >}}
+  {{< card url="../client_sdk_api" title="Client - SDK API" icon="document" >}}
+  {{< card url="../admin_tool_api" title="Admin tool API" icon="document" >}}
 {{< /cards >}}
